@@ -52,5 +52,6 @@ def get_average_age_for_season(data, season)
   end 
   total_ages = ages.reduce { |acc, x| acc+x }
   average_age = total_ages/ages.length
-  average_age.ceil
+  average_age = average_age.ceil
+  average_age
 end
