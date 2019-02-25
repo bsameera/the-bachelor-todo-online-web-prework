@@ -48,7 +48,7 @@ def get_average_age_for_season(data, season)
   # code here
   ages = []
   data[season].each do |obj|
-    ages.push(obj["age"].to_f)
+    ages.push(obj["age"].to_i)
   end 
   total_ages = ages.reduce { |acc, x| acc+x }
   average_age = total_ages/ages.length
