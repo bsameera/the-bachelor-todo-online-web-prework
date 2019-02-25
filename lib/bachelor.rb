@@ -46,4 +46,9 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  ages = []
+  
+  total_ages =
+  average_age = 
+  average_age
 end
